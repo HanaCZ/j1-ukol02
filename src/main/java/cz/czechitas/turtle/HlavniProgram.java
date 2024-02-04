@@ -40,6 +40,22 @@ public class HlavniProgram {
         nakresliRovnostrannyTroj(50);
 
         zofka.turnLeft(30);
+
+        zofka.turnLeft(180);
+        zofka.move(200);
+        zofka.turnRight(90);
+        zofka.move(300);
+        zofka.turnRight(90);
+
+        nakresliKolecko(5);
+
+        zofka.turnRight(90);
+        zofka.move(75);
+        zofka.turnRight(120);
+
+        nakresliRovnostrannyTroj(75);
+
+        zofka.turnRight(150);
     }
 
     private void nakresliRovnostrannyTroj(int delkaStrTroj) {

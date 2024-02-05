@@ -56,6 +56,68 @@ public class HlavniProgram {
         nakresliRovnostrannyTroj(75);
 
         zofka.turnRight(150);
+
+        zofka.turnRight(90);
+        zofka.move(100);
+
+        nakresliKolecko(5);
+
+        zofka.move(55);
+        zofka.turnRight(90);
+        zofka.move(125);
+
+        nakresliKolecko(7);
+
+        zofka.turnRight(180);
+        zofka.move(125);
+        zofka.turnLeft(90);
+        zofka.move(50);
+
+        nakresliKolecko(3);
+
+        zofka.move(50);
+        zofka.turnLeft(90);
+        zofka.move(20);
+        zofka.turnRight(90);
+
+        nakresliKolecko(1);
+
+        zofka.turnRight(180);
+        zofka.move(90);
+        zofka.turnRight(180);
+
+        nakresliKolecko(1);
+
+        zofka.turnRight(180);
+        zofka.move(200);
+        zofka.turnLeft(90);
+
+        nakresliObdelnik(75,150);
+
+        zofka.turnRight(90);
+        zofka.move(150);
+        zofka.turnLeft(90);
+
+        nakresliObdelnik(140, 90);
+
+        nakresliKolecko(6);
+
+        zofka.turnLeft(90);
+        zofka.move(150);
+        zofka.turnRight(30);
+
+        nakresliRovnostrannyTroj(50);
+
+        zofka.turnRight(150);
+        zofka.move(30);
+
+        nakresliKolecko(3);
+
+        zofka.move(60);
+
+        nakresliKolecko(3);
+
+
     }
 
     private void nakresliRovnostrannyTroj(int delkaStrTroj) {
